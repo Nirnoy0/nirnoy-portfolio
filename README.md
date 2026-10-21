@@ -10,16 +10,14 @@ Current hosted version: https://nir.muhayminul-nirnoy.chatgpt.site/
 
 ## Publish with GitHub Pages
 
-1. Open the repository Settings, then Pages.
-2. Set the build and deployment source to GitHub Actions.
-3. Open Actions and confirm the “Deploy portfolio to GitHub Pages” workflow succeeds.
-4. Visit the GitHub Pages link above. The first deployment can take a few minutes.
-
-The workflow in .github/workflows/deploy-pages.yml publishes the static site on each push to the main branch.
+1. Open the repository **Settings → Pages**.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Set the branch to **main** and folder to **/(root)**, then save.
+4. GitHub Pages publishes the site automatically after commits to **main**. The initial publish may take a few minutes; check the Pages section for the deployment status.
 
 ## Update the website
 
-Edit index.html, commit the change to main, and wait for the deployment workflow to complete. GitHub Pages will then publish the updated site automatically.
+Edit `index.html` and commit the changes to **main**. GitHub Pages will publish the updated site automatically.
 
 ## Contact links
 
